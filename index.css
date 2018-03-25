@@ -1,0 +1,166 @@
+body {
+  background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+}
+label {
+  color: #F4CD91;
+}
+input, textarea {
+  background-color : #FFE4BA;
+  border: 1px solid #6E460A;
+  margin-bottom: 15px;
+}
+div h1 {
+  font-family: 'Francois One', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #6E460A;
+}
+.header {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 55%;
+  background-color: #F4CD91;
+  border-radius: 25px;
+}
+.form {
+  margin-left: 5%;
+}
+.form input {
+  padding: 5px;
+  font-size: 15px;
+}
+.form label{
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 50px 5px 50px;
+  border-radius: 5px;
+  background-color: #F4CD91;
+  border-color: #6E460A;
+  font-family: 'Francois One', sans-serif;
+  
+}
+input, label {
+  display: block;
+}
+
+a {
+  color: #F4CD91;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #6E460A;
+}
+
+.results h2{
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 25px;
+  font-family: 'Francois One', sans-serif;
+}
+.results p{
+  margin-left: 5%;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+.results address{
+  margin-left: 5%;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+
+@media (max-width: 540px) {
+  .header {
+    width: 100%;
+  }
+  input {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  fieldset {
+    width: 100%;
+    text-align: center;
+  }
+  .results h2{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Francois One', sans-serif;
+}
+.results p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+.results address{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
