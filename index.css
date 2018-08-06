@@ -1,6 +1,9 @@
 body {
   background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 label {
   color: #F4CD91;
